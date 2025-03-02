@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Testy Point</title>
+    <link rel="stylesheet" href="css\resturant_name&Menu_print.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ideal Testy Point</h1>
+        <h3 id="a">Resturant</h3>
+    </header>
+    <main>
+        <section>
+            <!-- sab menu print kaiya he pehle -->
+            <div class="menu_print">
+                <table class="menu_items_print">
+                    <h2 class="b">Here's The Menu</h2>
+                    <tr>
+                        <td>
+                            <h3>Items</h3>
+                        </td>
+                        <td>
+                            <h3>Prices</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chicken Karahi</td>
+                        <td>Rs 1000</td>
+                    </tr>
+                    <tr>
+                        <td>Mutton Karahi</td>
+                        <td>Rs 2050</td>
+                    </tr>
+                    <tr>
+                        <td>Beef Karahi</td>
+                        <td>Rs 1900</td>
+                    </tr>
+                    <tr>
+                        <td>Mutton Korma</td>
+                        <td>Rs 1850</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza</td>
+                        <td>Rs 1100</td>
+                    </tr>
+                    <tr>
+                        <td>Burger</td>
+                        <td>Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td>Shawarma</td>
+                        <td>Rs 150</td>
+                    </tr>
+                    <tr>
+                        <td>Sandwich</td>
+                        <td>Rs 250</td>
+                    </tr>
+                    <tr>
+                        <td>Pepsi</td>
+                        <td>Rs 170</td>
+                    </tr>
+                    <tr>
+                        <td>Purified Water</td>
+                        <td>Rs 100</td>
+                    </tr>
+                    <tr>
+                        <td>Coffee</td>
+                        <td>Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td>Organic Juice</td>
+                        <td>Rs 250</td>
+                    </tr>
+                    <tr>
+                        <td>Soda Water</td>
+                        <td>Rs 150</td>
+                    </tr>
+                    <tr>
+                        <td>Ice Cream</td>
+                        <td>Rs 200</td>
+                    </tr>
+                    <tr>
+                        <td>Brownies</td>
+                        <td>Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td>Cake</td>
+                        <td>Rs 900</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- ................................................................................. -->
+
+            <!-- after menu print , next work -->
+            <div class="user_search">
+                <form><label for="user_input"></label>
+                    What would you like to eat: <input type="text" name="user_input" id="user_input"
+                        placeholder="Enter Food Item">
+                    <button type="button" onclick="firstOrder()" id="btn1">Add to Order</button>
+                </form>
+            </div>
+
+            <!-- ................................ -->
+            <div id="display_order" class="hidden">
+                <div id="order_details">
+                </div>
+
+                <!-- ..................... -->
+                <div id="order_total">
+                </div>
+            </div>
+
+            <!--     ................... -->
+            <div id="payment_method" class="hidden1">
+                <h3>Payment Methods: </h3>
+                <form id="p">
+                    <label for="payment_methods">Which payment method you want to Select</label>
+                    <select name="payment_methods" id="payment_methods">
+                        <option value="None">None</option>
+                        <option value="Jazzcash">Jazzcash</option>
+                        <option value="Easypaisa">Easypaisa</option>
+                        <option value="Bank transfer">Bank transfer</option>
+                        <option value="Cash on delivery">Cash on delivery</option>
+                    </select>
+                </form>
+            </div>
+            <!--  -->
+            <div id="payment_div"></div>
+        </section>
+    </main>
+    <script src="javascript/Node.js"></script>
+</body>
+
+</html>

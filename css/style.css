@@ -1,0 +1,84 @@
+.user_search {
+    font-size: larger;
+    margin: -410px 0px 23px 535px;
+
+}
+
+#user_input {
+    padding: 2px 15px;
+}
+
+#btn1 {
+    padding: 2px 5px;
+}
+
+#order_details {
+    display: grid;
+    justify-content: center;
+    margin: 40px 160px 15px 433px;
+    font-size: larger;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    background: red;
+    width: 240px;
+    height: 42px;
+    align-items: center;
+}
+
+.detail_Print {
+    width: 236px;
+    background-color: #abff00;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#order_total {
+    width: 233px;
+    background-color: #43d824;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: -15px 654px;
+    font-size: larger;
+}
+
+#payment_method {
+    margin: 47px 481px;
+}
+
+#payment_method h3 {
+    background-color: red;
+    margin: 0px -5px -3px 139px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#payment_div {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    margin: -48px 0px 0px 665px;
+    width: 205px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#p {
+    margin: 2px -125px 0px 139px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+.hidden{
+    display: none;
+}
+.hidden1{
+    display: none;
+}
